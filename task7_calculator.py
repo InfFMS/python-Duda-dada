@@ -3,3 +3,17 @@
 # Пример:
 # Ввод: Первое число: 10, Второе число: 2, Операция: *
 # Вывод: Результат: 20
+a=int(input())
+b=int(input())
+p=input()
+if p == "+":
+    s=a+b
+    print(s)
+elif p == "-":
+    r=a-b
+    print(r)
+elif p == ("*"):
+    print(a*b)
+elif p == ("/"):
+    print(a/b)
+
